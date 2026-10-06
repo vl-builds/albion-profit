@@ -1,0 +1,912 @@
+[
+  {
+    "id": "T2_WOOD",
+    "name": "Troncos de Bétula",
+    "family": "WOOD",
+    "tier": 2,
+    "enchantment": 0
+  },
+  {
+    "id": "T3_WOOD",
+    "name": "Troncos de Castanheira",
+    "family": "WOOD",
+    "tier": 3,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_WOOD",
+    "name": "Troncos de Pinho",
+    "family": "WOOD",
+    "tier": 4,
+    "enchantment": 0
+  },
+  {
+    "id": "T5_WOOD",
+    "name": "Troncos de Cedro",
+    "family": "WOOD",
+    "tier": 5,
+    "enchantment": 0
+  },
+  {
+    "id": "T6_WOOD",
+    "name": "Troncos de Carvalho-sangue",
+    "family": "WOOD",
+    "tier": 6,
+    "enchantment": 0
+  },
+  {
+    "id": "T7_WOOD",
+    "name": "Troncos de Freixo",
+    "family": "WOOD",
+    "tier": 7,
+    "enchantment": 0
+  },
+  {
+    "id": "T8_WOOD",
+    "name": "Troncos de Pau-branco",
+    "family": "WOOD",
+    "tier": 8,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_WOOD_LEVEL1@1",
+    "name": "Troncos de Pinho Incomuns",
+    "family": "WOOD",
+    "tier": 4,
+    "enchantment": 1
+  },
+  {
+    "id": "T5_WOOD_LEVEL1@1",
+    "name": "Troncos de Cedro Incomuns",
+    "family": "WOOD",
+    "tier": 5,
+    "enchantment": 1
+  },
+  {
+    "id": "T6_WOOD_LEVEL1@1",
+    "name": "Troncos de Carvalho-sangue Incomuns",
+    "family": "WOOD",
+    "tier": 6,
+    "enchantment": 1
+  },
+  {
+    "id": "T7_WOOD_LEVEL1@1",
+    "name": "Troncos de Freixo Incomuns",
+    "family": "WOOD",
+    "tier": 7,
+    "enchantment": 1
+  },
+  {
+    "id": "T8_WOOD_LEVEL1@1",
+    "name": "Troncos de Pau-branco Incomuns",
+    "family": "WOOD",
+    "tier": 8,
+    "enchantment": 1
+  },
+  {
+    "id": "T4_WOOD_LEVEL2@2",
+    "name": "Troncos de Pinho Raros",
+    "family": "WOOD",
+    "tier": 4,
+    "enchantment": 2
+  },
+  {
+    "id": "T5_WOOD_LEVEL2@2",
+    "name": "Troncos de Cedro Raros",
+    "family": "WOOD",
+    "tier": 5,
+    "enchantment": 2
+  },
+  {
+    "id": "T6_WOOD_LEVEL2@2",
+    "name": "Troncos de Carvalho-sangue Raros",
+    "family": "WOOD",
+    "tier": 6,
+    "enchantment": 2
+  },
+  {
+    "id": "T7_WOOD_LEVEL2@2",
+    "name": "Troncos de Freixo Raros",
+    "family": "WOOD",
+    "tier": 7,
+    "enchantment": 2
+  },
+  {
+    "id": "T8_WOOD_LEVEL2@2",
+    "name": "Troncos de Pau-branco Raros",
+    "family": "WOOD",
+    "tier": 8,
+    "enchantment": 2
+  },
+  {
+    "id": "T4_WOOD_LEVEL3@3",
+    "name": "Troncos de Pinho Excepcionais",
+    "family": "WOOD",
+    "tier": 4,
+    "enchantment": 3
+  },
+  {
+    "id": "T5_WOOD_LEVEL3@3",
+    "name": "Troncos de Cedro Excepcionais",
+    "family": "WOOD",
+    "tier": 5,
+    "enchantment": 3
+  },
+  {
+    "id": "T6_WOOD_LEVEL3@3",
+    "name": "Troncos de Carvalho-sangue Excepcionais",
+    "family": "WOOD",
+    "tier": 6,
+    "enchantment": 3
+  },
+  {
+    "id": "T7_WOOD_LEVEL3@3",
+    "name": "Troncos de Freixo Excepcionais",
+    "family": "WOOD",
+    "tier": 7,
+    "enchantment": 3
+  },
+  {
+    "id": "T8_WOOD_LEVEL3@3",
+    "name": "Troncos de Pau-branco Excepcionais",
+    "family": "WOOD",
+    "tier": 8,
+    "enchantment": 3
+  },
+  {
+    "id": "T4_WOOD_LEVEL4@4",
+    "name": "Troncos de Pinho Prístino",
+    "family": "WOOD",
+    "tier": 4,
+    "enchantment": 4
+  },
+  {
+    "id": "T5_WOOD_LEVEL4@4",
+    "name": "Troncos de Cedro Prístinos",
+    "family": "WOOD",
+    "tier": 5,
+    "enchantment": 4
+  },
+  {
+    "id": "T6_WOOD_LEVEL4@4",
+    "name": "Troncos de Carvalho-sangue Prístinos",
+    "family": "WOOD",
+    "tier": 6,
+    "enchantment": 4
+  },
+  {
+    "id": "T7_WOOD_LEVEL4@4",
+    "name": "Troncos de Freixo Prístinos",
+    "family": "WOOD",
+    "tier": 7,
+    "enchantment": 4
+  },
+  {
+    "id": "T8_WOOD_LEVEL4@4",
+    "name": "Troncos de Pau-branco Prístinos",
+    "family": "WOOD",
+    "tier": 8,
+    "enchantment": 4
+  },
+  {
+    "id": "T2_ROCK",
+    "name": "Calcário",
+    "family": "ROCK",
+    "tier": 2,
+    "enchantment": 0
+  },
+  {
+    "id": "T3_ROCK",
+    "name": "Arenito",
+    "family": "ROCK",
+    "tier": 3,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_ROCK",
+    "name": "Travertino",
+    "family": "ROCK",
+    "tier": 4,
+    "enchantment": 0
+  },
+  {
+    "id": "T5_ROCK",
+    "name": "Granito",
+    "family": "ROCK",
+    "tier": 5,
+    "enchantment": 0
+  },
+  {
+    "id": "T6_ROCK",
+    "name": "Ardósia",
+    "family": "ROCK",
+    "tier": 6,
+    "enchantment": 0
+  },
+  {
+    "id": "T7_ROCK",
+    "name": "Basalto",
+    "family": "ROCK",
+    "tier": 7,
+    "enchantment": 0
+  },
+  {
+    "id": "T8_ROCK",
+    "name": "Mármore",
+    "family": "ROCK",
+    "tier": 8,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_ROCK_LEVEL1@1",
+    "name": "Travertino Incomum",
+    "family": "ROCK",
+    "tier": 4,
+    "enchantment": 1
+  },
+  {
+    "id": "T5_ROCK_LEVEL1@1",
+    "name": "Granito Incomum",
+    "family": "ROCK",
+    "tier": 5,
+    "enchantment": 1
+  },
+  {
+    "id": "T6_ROCK_LEVEL1@1",
+    "name": "Ardósia Incomum",
+    "family": "ROCK",
+    "tier": 6,
+    "enchantment": 1
+  },
+  {
+    "id": "T7_ROCK_LEVEL1@1",
+    "name": "Basalto Incomum",
+    "family": "ROCK",
+    "tier": 7,
+    "enchantment": 1
+  },
+  {
+    "id": "T8_ROCK_LEVEL1@1",
+    "name": "Mármore Incomum",
+    "family": "ROCK",
+    "tier": 8,
+    "enchantment": 1
+  },
+  {
+    "id": "T4_ROCK_LEVEL2@2",
+    "name": "Travertino Raro",
+    "family": "ROCK",
+    "tier": 4,
+    "enchantment": 2
+  },
+  {
+    "id": "T5_ROCK_LEVEL2@2",
+    "name": "Granito Raro",
+    "family": "ROCK",
+    "tier": 5,
+    "enchantment": 2
+  },
+  {
+    "id": "T6_ROCK_LEVEL2@2",
+    "name": "Ardósia Rara",
+    "family": "ROCK",
+    "tier": 6,
+    "enchantment": 2
+  },
+  {
+    "id": "T7_ROCK_LEVEL2@2",
+    "name": "Basalto Raro",
+    "family": "ROCK",
+    "tier": 7,
+    "enchantment": 2
+  },
+  {
+    "id": "T8_ROCK_LEVEL2@2",
+    "name": "Mármore Raro",
+    "family": "ROCK",
+    "tier": 8,
+    "enchantment": 2
+  },
+  {
+    "id": "T4_ROCK_LEVEL3@3",
+    "name": "Travertino Excepcional",
+    "family": "ROCK",
+    "tier": 4,
+    "enchantment": 3
+  },
+  {
+    "id": "T5_ROCK_LEVEL3@3",
+    "name": "Granito Excepcional",
+    "family": "ROCK",
+    "tier": 5,
+    "enchantment": 3
+  },
+  {
+    "id": "T6_ROCK_LEVEL3@3",
+    "name": "Ardósia Excepcional",
+    "family": "ROCK",
+    "tier": 6,
+    "enchantment": 3
+  },
+  {
+    "id": "T7_ROCK_LEVEL3@3",
+    "name": "Basalto Excepcional",
+    "family": "ROCK",
+    "tier": 7,
+    "enchantment": 3
+  },
+  {
+    "id": "T8_ROCK_LEVEL3@3",
+    "name": "Mármore Excepcional",
+    "family": "ROCK",
+    "tier": 8,
+    "enchantment": 3
+  },
+  {
+    "id": "T2_ORE",
+    "name": "Minério de Cobre",
+    "family": "ORE",
+    "tier": 2,
+    "enchantment": 0
+  },
+  {
+    "id": "T3_ORE",
+    "name": "Minério de Estanho",
+    "family": "ORE",
+    "tier": 3,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_ORE",
+    "name": "Minério de Ferro",
+    "family": "ORE",
+    "tier": 4,
+    "enchantment": 0
+  },
+  {
+    "id": "T5_ORE",
+    "name": "Minério de Titânio",
+    "family": "ORE",
+    "tier": 5,
+    "enchantment": 0
+  },
+  {
+    "id": "T6_ORE",
+    "name": "Minério de Runita",
+    "family": "ORE",
+    "tier": 6,
+    "enchantment": 0
+  },
+  {
+    "id": "T7_ORE",
+    "name": "Minério de Meteorito",
+    "family": "ORE",
+    "tier": 7,
+    "enchantment": 0
+  },
+  {
+    "id": "T8_ORE",
+    "name": "Minério de Adamante",
+    "family": "ORE",
+    "tier": 8,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_ORE_LEVEL1@1",
+    "name": "Minério de Ferro Incomum",
+    "family": "ORE",
+    "tier": 4,
+    "enchantment": 1
+  },
+  {
+    "id": "T5_ORE_LEVEL1@1",
+    "name": "Minério de Titânio Incomum",
+    "family": "ORE",
+    "tier": 5,
+    "enchantment": 1
+  },
+  {
+    "id": "T6_ORE_LEVEL1@1",
+    "name": "Minério de Runita Incomum",
+    "family": "ORE",
+    "tier": 6,
+    "enchantment": 1
+  },
+  {
+    "id": "T7_ORE_LEVEL1@1",
+    "name": "Minério de Meteorito Incomum",
+    "family": "ORE",
+    "tier": 7,
+    "enchantment": 1
+  },
+  {
+    "id": "T8_ORE_LEVEL1@1",
+    "name": "Minério de Adamante Incomum",
+    "family": "ORE",
+    "tier": 8,
+    "enchantment": 1
+  },
+  {
+    "id": "T4_ORE_LEVEL2@2",
+    "name": "Minério de Ferro Raro",
+    "family": "ORE",
+    "tier": 4,
+    "enchantment": 2
+  },
+  {
+    "id": "T5_ORE_LEVEL2@2",
+    "name": "Minério de Titânio Raro",
+    "family": "ORE",
+    "tier": 5,
+    "enchantment": 2
+  },
+  {
+    "id": "T6_ORE_LEVEL2@2",
+    "name": "Minério de Runita Raro",
+    "family": "ORE",
+    "tier": 6,
+    "enchantment": 2
+  },
+  {
+    "id": "T7_ORE_LEVEL2@2",
+    "name": "Minério de Meteorito Raro",
+    "family": "ORE",
+    "tier": 7,
+    "enchantment": 2
+  },
+  {
+    "id": "T8_ORE_LEVEL2@2",
+    "name": "Minério de Adamante Raro",
+    "family": "ORE",
+    "tier": 8,
+    "enchantment": 2
+  },
+  {
+    "id": "T4_ORE_LEVEL3@3",
+    "name": "Minério de Ferro Excepcional",
+    "family": "ORE",
+    "tier": 4,
+    "enchantment": 3
+  },
+  {
+    "id": "T5_ORE_LEVEL3@3",
+    "name": "Minério de Titânio Excepcional",
+    "family": "ORE",
+    "tier": 5,
+    "enchantment": 3
+  },
+  {
+    "id": "T6_ORE_LEVEL3@3",
+    "name": "Minério de Runita Excepcional",
+    "family": "ORE",
+    "tier": 6,
+    "enchantment": 3
+  },
+  {
+    "id": "T7_ORE_LEVEL3@3",
+    "name": "Minério de Meteorito Excepcional",
+    "family": "ORE",
+    "tier": 7,
+    "enchantment": 3
+  },
+  {
+    "id": "T8_ORE_LEVEL3@3",
+    "name": "Minério de Adamante Excepcional",
+    "family": "ORE",
+    "tier": 8,
+    "enchantment": 3
+  },
+  {
+    "id": "T4_ORE_LEVEL4@4",
+    "name": "Minério de Ferro Prístino",
+    "family": "ORE",
+    "tier": 4,
+    "enchantment": 4
+  },
+  {
+    "id": "T5_ORE_LEVEL4@4",
+    "name": "Minério de Titânio Prístino",
+    "family": "ORE",
+    "tier": 5,
+    "enchantment": 4
+  },
+  {
+    "id": "T6_ORE_LEVEL4@4",
+    "name": "Minério de Runita Prístino",
+    "family": "ORE",
+    "tier": 6,
+    "enchantment": 4
+  },
+  {
+    "id": "T7_ORE_LEVEL4@4",
+    "name": "Minério de Meteorito Prístino",
+    "family": "ORE",
+    "tier": 7,
+    "enchantment": 4
+  },
+  {
+    "id": "T8_ORE_LEVEL4@4",
+    "name": "Minério de Adamante Prístino",
+    "family": "ORE",
+    "tier": 8,
+    "enchantment": 4
+  },
+  {
+    "id": "T2_HIDE",
+    "name": "Pelego Rústico",
+    "family": "HIDE",
+    "tier": 2,
+    "enchantment": 0
+  },
+  {
+    "id": "T3_HIDE",
+    "name": "Pelego Fino",
+    "family": "HIDE",
+    "tier": 3,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_HIDE",
+    "name": "Pelego Médio",
+    "family": "HIDE",
+    "tier": 4,
+    "enchantment": 0
+  },
+  {
+    "id": "T5_HIDE",
+    "name": "Pelego Pesado",
+    "family": "HIDE",
+    "tier": 5,
+    "enchantment": 0
+  },
+  {
+    "id": "T6_HIDE",
+    "name": "Pelego Robusto",
+    "family": "HIDE",
+    "tier": 6,
+    "enchantment": 0
+  },
+  {
+    "id": "T7_HIDE",
+    "name": "Pelego Grosso",
+    "family": "HIDE",
+    "tier": 7,
+    "enchantment": 0
+  },
+  {
+    "id": "T8_HIDE",
+    "name": "Pelego Resistente",
+    "family": "HIDE",
+    "tier": 8,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_HIDE_LEVEL1@1",
+    "name": "Pelego Médio Incomum",
+    "family": "HIDE",
+    "tier": 4,
+    "enchantment": 1
+  },
+  {
+    "id": "T5_HIDE_LEVEL1@1",
+    "name": "Pelego Pesado Incomum",
+    "family": "HIDE",
+    "tier": 5,
+    "enchantment": 1
+  },
+  {
+    "id": "T6_HIDE_LEVEL1@1",
+    "name": "Pelego Robusto Incomum",
+    "family": "HIDE",
+    "tier": 6,
+    "enchantment": 1
+  },
+  {
+    "id": "T7_HIDE_LEVEL1@1",
+    "name": "Pelego Grosso Incomum",
+    "family": "HIDE",
+    "tier": 7,
+    "enchantment": 1
+  },
+  {
+    "id": "T8_HIDE_LEVEL1@1",
+    "name": "Pelego Resistente Incomum",
+    "family": "HIDE",
+    "tier": 8,
+    "enchantment": 1
+  },
+  {
+    "id": "T4_HIDE_LEVEL2@2",
+    "name": "Pelego Médio Raro",
+    "family": "HIDE",
+    "tier": 4,
+    "enchantment": 2
+  },
+  {
+    "id": "T5_HIDE_LEVEL2@2",
+    "name": "Pelego Pesado Raro",
+    "family": "HIDE",
+    "tier": 5,
+    "enchantment": 2
+  },
+  {
+    "id": "T6_HIDE_LEVEL2@2",
+    "name": "Pelego Robusto Raro",
+    "family": "HIDE",
+    "tier": 6,
+    "enchantment": 2
+  },
+  {
+    "id": "T7_HIDE_LEVEL2@2",
+    "name": "Pelego Grosso Raro",
+    "family": "HIDE",
+    "tier": 7,
+    "enchantment": 2
+  },
+  {
+    "id": "T8_HIDE_LEVEL2@2",
+    "name": "Pelego Resistente Raro",
+    "family": "HIDE",
+    "tier": 8,
+    "enchantment": 2
+  },
+  {
+    "id": "T4_HIDE_LEVEL3@3",
+    "name": "Pelego Médio Excepcional",
+    "family": "HIDE",
+    "tier": 4,
+    "enchantment": 3
+  },
+  {
+    "id": "T5_HIDE_LEVEL3@3",
+    "name": "Pelego Pesado Excepcional",
+    "family": "HIDE",
+    "tier": 5,
+    "enchantment": 3
+  },
+  {
+    "id": "T6_HIDE_LEVEL3@3",
+    "name": "Pelego Robusto Excepcional",
+    "family": "HIDE",
+    "tier": 6,
+    "enchantment": 3
+  },
+  {
+    "id": "T7_HIDE_LEVEL3@3",
+    "name": "Pelego Grosso Excepcional",
+    "family": "HIDE",
+    "tier": 7,
+    "enchantment": 3
+  },
+  {
+    "id": "T8_HIDE_LEVEL3@3",
+    "name": "Pelego Resistente Excepcional",
+    "family": "HIDE",
+    "tier": 8,
+    "enchantment": 3
+  },
+  {
+    "id": "T4_HIDE_LEVEL4@4",
+    "name": "Pelego Médio Prístino",
+    "family": "HIDE",
+    "tier": 4,
+    "enchantment": 4
+  },
+  {
+    "id": "T5_HIDE_LEVEL4@4",
+    "name": "Pelego Pesado Prístino",
+    "family": "HIDE",
+    "tier": 5,
+    "enchantment": 4
+  },
+  {
+    "id": "T6_HIDE_LEVEL4@4",
+    "name": "Pelego Robusto Prístino",
+    "family": "HIDE",
+    "tier": 6,
+    "enchantment": 4
+  },
+  {
+    "id": "T7_HIDE_LEVEL4@4",
+    "name": "Pelego Grosso Prístino",
+    "family": "HIDE",
+    "tier": 7,
+    "enchantment": 4
+  },
+  {
+    "id": "T8_HIDE_LEVEL4@4",
+    "name": "Pelego Resistente Prístino",
+    "family": "HIDE",
+    "tier": 8,
+    "enchantment": 4
+  },
+  {
+    "id": "T2_FIBER",
+    "name": "Algodão",
+    "family": "FIBER",
+    "tier": 2,
+    "enchantment": 0
+  },
+  {
+    "id": "T3_FIBER",
+    "name": "Linho",
+    "family": "FIBER",
+    "tier": 3,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_FIBER",
+    "name": "Cânhamo",
+    "family": "FIBER",
+    "tier": 4,
+    "enchantment": 0
+  },
+  {
+    "id": "T5_FIBER",
+    "name": "Verbena",
+    "family": "FIBER",
+    "tier": 5,
+    "enchantment": 0
+  },
+  {
+    "id": "T6_FIBER",
+    "name": "Algodão-dourado",
+    "family": "FIBER",
+    "tier": 6,
+    "enchantment": 0
+  },
+  {
+    "id": "T7_FIBER",
+    "name": "Linhossol",
+    "family": "FIBER",
+    "tier": 7,
+    "enchantment": 0
+  },
+  {
+    "id": "T8_FIBER",
+    "name": "Cânhamo-fantasma",
+    "family": "FIBER",
+    "tier": 8,
+    "enchantment": 0
+  },
+  {
+    "id": "T4_FIBER_LEVEL1@1",
+    "name": "Cânhamo Incomum",
+    "family": "FIBER",
+    "tier": 4,
+    "enchantment": 1
+  },
+  {
+    "id": "T5_FIBER_LEVEL1@1",
+    "name": "Verbena Incomum",
+    "family": "FIBER",
+    "tier": 5,
+    "enchantment": 1
+  },
+  {
+    "id": "T6_FIBER_LEVEL1@1",
+    "name": "Algodão-dourado Incomum",
+    "family": "FIBER",
+    "tier": 6,
+    "enchantment": 1
+  },
+  {
+    "id": "T7_FIBER_LEVEL1@1",
+    "name": "Linhossol Incomum",
+    "family": "FIBER",
+    "tier": 7,
+    "enchantment": 1
+  },
+  {
+    "id": "T8_FIBER_LEVEL1@1",
+    "name": "Cânhamo-fantasma Incomum",
+    "family": "FIBER",
+    "tier": 8,
+    "enchantment": 1
+  },
+  {
+    "id": "T4_FIBER_LEVEL2@2",
+    "name": "Cânhamo Raro",
+    "family": "FIBER",
+    "tier": 4,
+    "enchantment": 2
+  },
+  {
+    "id": "T5_FIBER_LEVEL2@2",
+    "name": "Verbena Rara",
+    "family": "FIBER",
+    "tier": 5,
+    "enchantment": 2
+  },
+  {
+    "id": "T6_FIBER_LEVEL2@2",
+    "name": "Algodão-dourado Raro",
+    "family": "FIBER",
+    "tier": 6,
+    "enchantment": 2
+  },
+  {
+    "id": "T7_FIBER_LEVEL2@2",
+    "name": "Linhossol Raro",
+    "family": "FIBER",
+    "tier": 7,
+    "enchantment": 2
+  },
+  {
+    "id": "T8_FIBER_LEVEL2@2",
+    "name": "Cânhamo-fantasma Raro",
+    "family": "FIBER",
+    "tier": 8,
+    "enchantment": 2
+  },
+  {
+    "id": "T4_FIBER_LEVEL3@3",
+    "name": "Cânhamo Excepcional",
+    "family": "FIBER",
+    "tier": 4,
+    "enchantment": 3
+  },
+  {
+    "id": "T5_FIBER_LEVEL3@3",
+    "name": "Verbena Excepcional",
+    "family": "FIBER",
+    "tier": 5,
+    "enchantment": 3
+  },
+  {
+    "id": "T6_FIBER_LEVEL3@3",
+    "name": "Algodão-dourado Excepcional",
+    "family": "FIBER",
+    "tier": 6,
+    "enchantment": 3
+  },
+  {
+    "id": "T7_FIBER_LEVEL3@3",
+    "name": "Linhossol Excepcional",
+    "family": "FIBER",
+    "tier": 7,
+    "enchantment": 3
+  },
+  {
+    "id": "T8_FIBER_LEVEL3@3",
+    "name": "Cânhamo-fantasma Excepcional",
+    "family": "FIBER",
+    "tier": 8,
+    "enchantment": 3
+  },
+  {
+    "id": "T4_FIBER_LEVEL4@4",
+    "name": "Cânhamo Prístino",
+    "family": "FIBER",
+    "tier": 4,
+    "enchantment": 4
+  },
+  {
+    "id": "T5_FIBER_LEVEL4@4",
+    "name": "Verbena Prístina",
+    "family": "FIBER",
+    "tier": 5,
+    "enchantment": 4
+  },
+  {
+    "id": "T6_FIBER_LEVEL4@4",
+    "name": "Algodão-dourado Prístino",
+    "family": "FIBER",
+    "tier": 6,
+    "enchantment": 4
+  },
+  {
+    "id": "T7_FIBER_LEVEL4@4",
+    "name": "Linhossol Prístino",
+    "family": "FIBER",
+    "tier": 7,
+    "enchantment": 4
+  },
+  {
+    "id": "T8_FIBER_LEVEL4@4",
+    "name": "Cânhamo-fantasma Prístino",
+    "family": "FIBER",
+    "tier": 8,
+    "enchantment": 4
+  }
+]

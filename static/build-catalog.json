@@ -1,0 +1,2279 @@
+[
+  {
+    "id": "T4_2H_ARCANESTAFF",
+    "name": "Cajado Arcano Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ARCANESTAFF_CRYSTAL",
+    "name": "Cajado Astral do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ARCANESTAFF_HELL",
+    "name": "Cajado Oculto do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ARCANE_RINGPAIR_AVALON",
+    "name": "Som Equilibrado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_AXE",
+    "name": "Machadão do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_AXE_AVALON",
+    "name": "Quebra-reino do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_BOW",
+    "name": "Arco do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": "Muito boa",
+    "second": 1235,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_BOW_AVALON",
+    "name": "Fura-bruma do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_BOW_CRYSTAL",
+    "name": "Arco do Andarilho Celeste do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": "S",
+    "second": 1413,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_BOW_HELL",
+    "name": "Arco Plangente do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_BOW_KEEPER",
+    "name": "Arco Badônico do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CLAWPAIR",
+    "name": "Garras do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CLAYMORE",
+    "name": "Montante do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CLAYMORE_AVALON",
+    "name": "Cria-reis do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CLEAVER_HELL",
+    "name": "Espada Entalhada do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": "Boa",
+    "second": 1120,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_COMBATSTAFF_MORGANA",
+    "name": "Cajado de Monge Negro do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CROSSBOW",
+    "name": "Besta do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CROSSBOWLARGE",
+    "name": "Besta Pesada do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": "S",
+    "second": 1883,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CROSSBOWLARGE_MORGANA",
+    "name": "Arco de Cerco do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CROSSBOW_CANNON_AVALON",
+    "name": "Modelador de Energia do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CURSEDSTAFF",
+    "name": "Cajado Amaldiçoado Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_CURSEDSTAFF_MORGANA",
+    "name": "Cajado da Danação do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DAGGERPAIR",
+    "name": "Par de Adagas do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DAGGERPAIR_CRYSTAL",
+    "name": "Gêmeas Aniquiladoras do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DAGGER_KATAR_AVALON",
+    "name": "Fúria Contida do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DEMONICSTAFF",
+    "name": "Cajado Demoníaco do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DIVINESTAFF",
+    "name": "Cajado Divino do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DOUBLEBLADEDSTAFF",
+    "name": "Cajado Bilaminado do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+    "name": "Lâminas Gêmeas Fantasmagóricas do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALAXE_KEEPER",
+    "name": "Patas de Urso do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALCROSSBOW_CRYSTAL",
+    "name": "Detonadores Reluzentes do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALCROSSBOW_HELL",
+    "name": "Lança-virotes do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALHAMMER_HELL",
+    "name": "Martelos de Forja do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALMACE_AVALON",
+    "name": "Jurador do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALSCIMITAR_UNDEAD",
+    "name": "Par de Galatinas do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALSICKLE_UNDEAD",
+    "name": "Mortíficos do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_DUALSWORD",
+    "name": "Espadas Duplas do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ENIGMATICORB_MORGANA",
+    "name": "Local Malévolo do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ENIGMATICSTAFF",
+    "name": "Cajado Enigmático do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FIRESTAFF",
+    "name": "Cajado de Fogo Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FIRESTAFF_HELL",
+    "name": "Cajado Sulfuroso do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FIRE_RINGPAIR_AVALON",
+    "name": "Canção da Alvorada do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FLAIL",
+    "name": "Mangual do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FROSTSTAFF",
+    "name": "Cajado de Gelo Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_FROSTSTAFF_CRYSTAL",
+    "name": "Cajado Ártico do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_GLACIALSTAFF",
+    "name": "Cajado Glacial do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_GLAIVE",
+    "name": "Archa do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_GLAIVE_CRYSTAL",
+    "name": "Archa Fraturada do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HALBERD",
+    "name": "Alabarda do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HALBERD_MORGANA",
+    "name": "Chama-corpos do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HAMMER",
+    "name": "Martelo Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HAMMER_AVALON",
+    "name": "Mão da Justiça do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HAMMER_CRYSTAL",
+    "name": "Martelo Estrondoso do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HAMMER_UNDEAD",
+    "name": "Martelo Fúnebre do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HARPOON_HELL",
+    "name": "Caça-espíritos do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HOLYSTAFF",
+    "name": "Cajado Sagrado Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HOLYSTAFF_CRYSTAL",
+    "name": "Cajado Exaltado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HOLYSTAFF_HELL",
+    "name": "Cajado Corrompido do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_HOLYSTAFF_UNDEAD",
+    "name": "Cajado da Redenção do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ICECRYSTAL_UNDEAD",
+    "name": "Prisma Geleterno do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ICEGAUNTLETS_HELL",
+    "name": "Cajado de Sincelo do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_INFERNOSTAFF",
+    "name": "Cajado Infernal do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_INFERNOSTAFF_MORGANA",
+    "name": "Cajado Fulgurante do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_IRONCLADEDSTAFF",
+    "name": "Cajado Férreo do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_AVALON",
+    "name": "Punhos de Avalon do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": "S",
+    "second": 772,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_CRYSTAL",
+    "name": "Braçadeiras Pulsantes do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_HELL",
+    "name": "Mãos Infernais do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_KEEPER",
+    "name": "Luvas Ursinas do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_MORGANA",
+    "name": "Cestus Golpeadores do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET1",
+    "name": "Luvas de Lutador do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET2",
+    "name": "Braçadeiras de Batalha do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_KNUCKLES_SET3",
+    "name": "Manoplas Cravadas do Adepto",
+    "slot": "weapon",
+    "family": "Luvas de guerra",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_LONGBOW",
+    "name": "Arco Longo do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_LONGBOW_UNDEAD",
+    "name": "Arco Sussurrante do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_MACE",
+    "name": "Maça Pesada do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_MACE_MORGANA",
+    "name": "Maça Cambriana do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_NATURESTAFF",
+    "name": "Cajado da Natureza Elevado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_NATURESTAFF_HELL",
+    "name": "Cajado Pustulento do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_NATURESTAFF_KEEPER",
+    "name": "Cajado Rampante do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_POLEHAMMER",
+    "name": "Martelo de Batalha do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_QUARTERSTAFF",
+    "name": "Bordão do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_QUARTERSTAFF_AVALON",
+    "name": "Buscador do Graal do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_RAM_KEEPER",
+    "name": "Guarda-bosques do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_REPEATINGCROSSBOW_UNDEAD",
+    "name": "Repetidor Lamentoso do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_ROCKSTAFF_KEEPER",
+    "name": "Cajado do Equilíbrio do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SCYTHE_CRYSTAL",
+    "name": "Foice de Cristal do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SCYTHE_HELL",
+    "name": "Segadeira Infernal do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_AVALON",
+    "name": "Cajado Invocador da Luz do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_CRYSTAL",
+    "name": "Cajado Petrificante do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_HELL",
+    "name": "Cajado Endemoniado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_KEEPER",
+    "name": "Cajado Rúnico da Terra do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_MORGANA",
+    "name": "Cajado da Lua de Sangue do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_SET1",
+    "name": "Cajado de Predador do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_SET2",
+    "name": "Cajado Enraizado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SHAPESHIFTER_SET3",
+    "name": "Cajado Primitivo do Adepto",
+    "slot": "weapon",
+    "family": "Cajados metamorfos",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SKULLORB_HELL",
+    "name": "Caveira Amaldiçoada do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_SPEAR",
+    "name": "Pique do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_TRIDENT_UNDEAD",
+    "name": "Lança Trina do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_TWINSCYTHE_HELL",
+    "name": "Seganímica do Adepto",
+    "slot": "weapon",
+    "family": "Bastões",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_WARBOW",
+    "name": "Arco de Guerra do Adepto",
+    "slot": "weapon",
+    "family": "Arcos",
+    "rank": "Muito boa",
+    "second": 1280,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_2H_WILDSTAFF",
+    "name": "Cajado Selvagem do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": true
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_AVALON",
+    "name": "Robe da Pureza do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_FEY",
+    "name": "Robe Feérico do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_HELL",
+    "name": "Robe Malévolo do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_KEEPER",
+    "name": "Robe de Druida do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_MORGANA",
+    "name": "Robe Sectário do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_ROYAL",
+    "name": "Robe Real do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_SET1",
+    "name": "Robe de Erudito do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_SET2",
+    "name": "Robe de Clérigo do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_CLOTH_SET3",
+    "name": "Robe de Mago do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_AVALON",
+    "name": "Casaco da Tenacidade do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_DRAGON",
+    "name": "Casaco Mata-dragões do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_FEY",
+    "name": "Casaco de Andarilho da Névoa do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_HELL",
+    "name": "Casaco Inferial do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_MORGANA",
+    "name": "Casaco de Espreitador do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_ROYAL",
+    "name": "Casaco Real do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_SET1",
+    "name": "Casaco de Mercenário do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_SET2",
+    "name": "Casaco de Caçador do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_SET3",
+    "name": "Casaco de Assassino do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_LEATHER_UNDEAD",
+    "name": "Casaco Espectral do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_AVALON",
+    "name": "Armadura da Bravura do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_FEY",
+    "name": "Armadura de Tecelão do Crepúsculo do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_HELL",
+    "name": "Armadura Demônia do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_KEEPER",
+    "name": "Armadura Judicante do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_ROYAL",
+    "name": "Armadura Real do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_SET1",
+    "name": "Armadura de Soldado do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_SET2",
+    "name": "Armadura de Cavaleiro do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_SET3",
+    "name": "Armadura de Guardião do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_ARMOR_PLATE_UNDEAD",
+    "name": "Armadura de Guarda-tumbas do Adepto",
+    "slot": "body",
+    "family": "Armaduras",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPE",
+    "name": "Capa do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_AVALON",
+    "name": "Capa Avaloniana do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_DEMON",
+    "name": "Capa Demoníaca do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRECILIEN",
+    "name": "Capa de Brecilien do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_BRIDGEWATCH",
+    "name": "Capa de Bridgewatch do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_CAERLEON",
+    "name": "Capa de Caerleon do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_FORTSTERLING",
+    "name": "Capa de Fort Sterling do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_LYMHURST",
+    "name": "Capa de Lymhurst do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_MARTLOCK",
+    "name": "Capa de Martlock do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_FW_THETFORD",
+    "name": "Capa de Thetford do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_HERETIC",
+    "name": "Capa Herege do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_KEEPER",
+    "name": "Capa Protetora do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_MORGANA",
+    "name": "Capa de Morgana do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_SMUGGLER",
+    "name": "Capa de Contrabandista do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_CAPEITEM_UNDEAD",
+    "name": "Capa Morta-Viva do Adepto",
+    "slot": "cape",
+    "family": "Capas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_AVALON",
+    "name": "Capote da Pureza do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_FEY",
+    "name": "Capote Feérico do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_HELL",
+    "name": "Capote Malévolo do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_KEEPER",
+    "name": "Capote de Druida do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_MORGANA",
+    "name": "Capote Sectário do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_ROYAL",
+    "name": "Capote Real do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_SET1",
+    "name": "Capote de Erudito do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_SET2",
+    "name": "Capote de Clérigo do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_CLOTH_SET3",
+    "name": "Capote de Mago do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_AVALON",
+    "name": "Capuz da Tenacidade do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_DRAGON",
+    "name": "Capuz Mata-dragões do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_FEY",
+    "name": "Capuz de Andarilho da Névoa do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_HELL",
+    "name": "Capuz Inferial do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_MORGANA",
+    "name": "Capuz de Espreitador do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_ROYAL",
+    "name": "Capuz Real do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_SET1",
+    "name": "Capuz de Mercenário do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_SET2",
+    "name": "Capuz de Caçador do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_SET3",
+    "name": "Capuz de Assassino do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_LEATHER_UNDEAD",
+    "name": "Capuz Espectral do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_AVALON",
+    "name": "Elmo da Bravura do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_FEY",
+    "name": "Elmo de Tecelão do Crepúsculo do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_HELL",
+    "name": "Elmo Demônio do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_KEEPER",
+    "name": "Elmo Judicante do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_ROYAL",
+    "name": "Elmo Real do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_SET1",
+    "name": "Elmo de Soldado do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_SET2",
+    "name": "Elmo de Cavaleiro do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_SET3",
+    "name": "Elmo de Guardião do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_HEAD_PLATE_UNDEAD",
+    "name": "Elmo de Guarda-tumbas do Adepto",
+    "slot": "head",
+    "family": "Cabeça",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_1HCROSSBOW",
+    "name": "Besta Leve do Adepto",
+    "slot": "weapon",
+    "family": "Bestas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_ARCANESTAFF",
+    "name": "Cajado Arcano do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_ARCANESTAFF_UNDEAD",
+    "name": "Cajado Feiticeiro do Adepto",
+    "slot": "weapon",
+    "family": "Cajados arcanos",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_AXE",
+    "name": "Machado de Guerra do Adepto",
+    "slot": "weapon",
+    "family": "Machados",
+    "rank": "Muito boa",
+    "second": 1600,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF",
+    "name": "Cajado Amaldiçoado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_AVALON",
+    "name": "Chama-sombra do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_CRYSTAL",
+    "name": "Cajado Pútrido do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_CURSEDSTAFF_UNDEAD",
+    "name": "Cajado Execrado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados amaldiçoados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_DAGGER",
+    "name": "Adaga do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": "Mediana",
+    "second": 1448,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_DAGGER_HELL",
+    "name": "Presa Demoníaca do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FIRESTAFF",
+    "name": "Cajado de Fogo do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FIRESTAFF_CRYSTAL",
+    "name": "Cajado do Andarilho Flamejante do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FIRESTAFF_KEEPER",
+    "name": "Cajado Incendiário do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de fogo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FROSTSTAFF",
+    "name": "Cajado de Gelo do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FROSTSTAFF_AVALON",
+    "name": "Uivo Frio do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_FROSTSTAFF_KEEPER",
+    "name": "Cajado Enregelante do Adepto",
+    "slot": "weapon",
+    "family": "Cajados de gelo",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_HAMMER",
+    "name": "Martelo do Adepto",
+    "slot": "weapon",
+    "family": "Martelos",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_HOLYSTAFF",
+    "name": "Cajado Sagrado do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_HOLYSTAFF_AVALON",
+    "name": "Queda Santa do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_HOLYSTAFF_MORGANA",
+    "name": "Cajado Avivador do Adepto",
+    "slot": "weapon",
+    "family": "Cajados sagrados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_MACE",
+    "name": "Maça do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_MACE_CRYSTAL",
+    "name": "Monarca Tempestuoso do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_MACE_HELL",
+    "name": "Maça de Íncubo do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_NATURESTAFF",
+    "name": "Cajado da Natureza do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_NATURESTAFF_AVALON",
+    "name": "Raiz Férrea do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_NATURESTAFF_CRYSTAL",
+    "name": "Cajado de Crosta Forjada do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_NATURESTAFF_KEEPER",
+    "name": "Cajado Druídico do Adepto",
+    "slot": "weapon",
+    "family": "Cajados da natureza",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_RAPIER_MORGANA",
+    "name": "Dessangrador do Adepto",
+    "slot": "weapon",
+    "family": "Adagas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_ROCKMACE_KEEPER",
+    "name": "Maça Pétrea do Adepto",
+    "slot": "weapon",
+    "family": "Maças",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SCIMITAR_MORGANA",
+    "name": "Lâmina Aclarada do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SPEAR",
+    "name": "Lança do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": "S",
+    "second": 1810,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SPEAR_KEEPER",
+    "name": "Lança Garceira do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SPEAR_LANCE_AVALON",
+    "name": "Alvorada do Adepto",
+    "slot": "weapon",
+    "family": "Lanças",
+    "rank": "S",
+    "second": 2013,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SWORD",
+    "name": "Espada Larga do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_MAIN_SWORD_CRYSTAL",
+    "name": "Lâmina da Infinidade do Adepto",
+    "slot": "weapon",
+    "family": "Espadas",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_BOOK",
+    "name": "Tomo de Feitiços do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_CENSER_AVALON",
+    "name": "Incensário Celeste do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_DEMONSKULL_HELL",
+    "name": "Muisec do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_HORN_KEEPER",
+    "name": "Brumário do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_JESTERCANE_HELL",
+    "name": "Bengala Maligna do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_LAMP_UNDEAD",
+    "name": "Lume Críptico do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_ORB_MORGANA",
+    "name": "Olho dos Segredos do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_SHIELD",
+    "name": "Escudo do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_SHIELD_AVALON",
+    "name": "Égide Astral do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_SHIELD_CRYSTAL",
+    "name": "Barreira Inquebrável do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_SHIELD_HELL",
+    "name": "Escudo Vampírico do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_SPIKEDSHIELD_MORGANA",
+    "name": "Quebra-rostos do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TALISMAN_AVALON",
+    "name": "Cetro Sagrado do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TOME_CRYSTAL",
+    "name": "Grimório Estagnado do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TORCH",
+    "name": "Tocha do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TORCH_CRYSTAL",
+    "name": "Tocha Chama Azul do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TOTEM_KEEPER",
+    "name": "Raiz Mestra do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_OFF_TOWERSHIELD_UNDEAD",
+    "name": "Sarcófago do Adepto",
+    "slot": "offhand",
+    "family": "Mãos secundárias",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_AVALON",
+    "name": "Sandálias da Pureza do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_FEY",
+    "name": "Sandálias Feéricas do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_HELL",
+    "name": "Sandálias Malévolas do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_KEEPER",
+    "name": "Sandálias de Druida do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_MORGANA",
+    "name": "Sandálias Sectárias do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_ROYAL",
+    "name": "Sandálias Reais do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_SET1",
+    "name": "Sandálias de Erudito do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_SET2",
+    "name": "Sandálias de Clérigo do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_CLOTH_SET3",
+    "name": "Sandálias de Mago do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_AVALON",
+    "name": "Sapatos da Tenacidade do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_DRAGON",
+    "name": "Sapatos Mata-dragões do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_FEY",
+    "name": "Sapatos de Andarilho da Névoa do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_HELL",
+    "name": "Sapatos Inferiais do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_MORGANA",
+    "name": "Sapatos de Espreitador do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_ROYAL",
+    "name": "Sapatos Reais do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_SET1",
+    "name": "Sapatos de Mercenário do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_SET2",
+    "name": "Sapatos de Caçador do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_SET3",
+    "name": "Sapatos de Assassino do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_LEATHER_UNDEAD",
+    "name": "Sapatos Espectrais do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_AVALON",
+    "name": "Botas da Bravura do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_FEY",
+    "name": "Botas de Tecelão do Crepúsculo do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_HELL",
+    "name": "Botas Demônias do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_KEEPER",
+    "name": "Botas Judicantes do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_ROYAL",
+    "name": "Botas Reais do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_SET1",
+    "name": "Botas de Soldado do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_SET2",
+    "name": "Botas de Cavaleiro do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_SET3",
+    "name": "Botas de Guardião do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  },
+  {
+    "id": "T4_SHOES_PLATE_UNDEAD",
+    "name": "Botas de Guarda-tumbas do Adepto",
+    "slot": "feet",
+    "family": "Calçados",
+    "rank": null,
+    "second": null,
+    "twoHanded": false
+  }
+]

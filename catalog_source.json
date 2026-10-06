@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/ao-data/ao-bin-dumps",
+  "xml_sha256": "c89d017834315e57e00b66fe0fc4a71ca0c53efac26d152a67dd3ed8f48b90e0",
+  "metadata_sha256": "24f9080fd6c1d69cdb2e494a1b6146bc87913d6cf391a515b250df938ef791da",
+  "items": 6375,
+  "base_items": 1275,
+  "eligibility": "Equipment candidates; requires observed positive BM buy price"
+}

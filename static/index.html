@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c0e13">
+<title>Albion Profit · Scanner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Alegreya+Sans:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=arsenal-handoff-1"><link rel="stylesheet" href="/island.css?v=3"></head><body>
+<a class="skip-link" href="#mainContent">Ir para o conteúdo</a>
+<header class="app-header"><a class="brand" href="#scanner" aria-label="Albion Profit, Scanner"><span class="brand-crest">AP</span><span><strong>Albion Profit</strong><small>Mercado · Flips · Ilhas</small></span></a>
+<div class="server-switch" aria-label="Servidor"><button type="button" data-server="Americas">Americas</button><button type="button" data-server="Europe">Europe</button></div>
+<div class="header-tools"><div class="live-control"><span id="liveDot" class="live-dot"></span><span id="liveCompact">Conectando…</span><button id="toggleLive" type="button">Pausar</button></div><button id="soundToggle" class="icon-button" type="button" aria-label="Ativar som dos alertas" aria-pressed="false">♪</button><button class="balance" type="button" data-tab="cargo" title="Patrimônio informado por você"><span class="silver-coin"></span><span id="balanceValue">—</span></button></div></header>
+<nav class="desktop-tabs" aria-label="Navegação principal"><button data-tab="scanner" aria-current="page">Scanner</button><button data-tab="routes">Rotas</button><button data-tab="cargo">Carga <span data-count="cargo">0</span></button><button data-tab="favs">Favoritos <span data-count="favs">0</span></button><button data-tab="alerts">Alertas <span data-count="alerts">0</span></button><button data-tab="resources">Coleta</button><button data-tab="builds">Armas e builds</button><button data-tab="trades">Meus flips</button><button data-tab="island">Minha ilha</button></nav>
+<div id="opportunityNotice" class="panel opportunity-notice" role="status" aria-live="polite" hidden><strong id="opportunityNoticeText"></strong><button type="button" data-tab="alerts">Ver alertas</button><button id="dismissOpportunity" type="button" aria-label="Dispensar aviso">×</button></div>
+<div id="islandNotice" class="panel opportunity-notice" role="status" hidden><strong id="islandNoticeText"></strong><button type="button" data-tab="island">Ver minha ilha</button></div><div class="app-layout"><main id="mainContent" tabindex="-1">
+<section id="view-island" class="tab-view" hidden aria-labelledby="islandHeading">
+<div class="island-hero"><div><span class="island-eyebrow">LYMHURST · SUA FAZENDA</span><h1 id="islandHeading">Minha ilha</h1><p id="islandContext"></p></div><span class="island-emblem" aria-hidden="true">🥕</span></div>
+<div id="islandSummary" class="island-stats"></div>
+<div class="island-toolbar"><h2>Seus canteiros</h2><button type="button" class="primary" id="islandNew">+ Registrar plantio</button></div>
+<p id="islandMessage" role="status"></p>
+<div id="islandEditor" class="panel island-editor" hidden>
+<div class="section-heading"><h2 id="islandEditorTitle">Registrar cenouras</h2><button type="button" id="islandCancel" aria-label="Fechar formulário de plantio">✕</button></div>
+<form id="islandForm">
+<div class="island-form-grid"><label>Nome do canteiro <input id="islandPlot" maxlength="80" placeholder="Ex.: Canteiro 1" required></label>
+<label>Sementes plantadas <input id="islandPlants" type="number" min="1" max="10000" step="1" required placeholder="Quantidade"></label></div>
+<div id="islandQuickTime"><label>Quanto falta para colher no jogo?</label><div class="island-time-inputs"><label>Horas <input id="islandHours" type="number" min="0" max="8760" step="1" placeholder="0"></label><label>Minutos <input id="islandMinutes" type="number" min="0" max="59" step="1" placeholder="0"></label></div><p class="hint">Copie o tempo restante do jogo. A contagem começa ao salvar.</p></div>
+<details id="islandDetails"><summary>Datas, foco e valores (opcional)</summary><div class="island-form-grid">
+<label id="islandExactLabel"><input id="islandExact" type="checkbox"> Informar datas exatas</label>
+<div id="islandDates" hidden><label>Plantado em <input id="islandPlanted" type="datetime-local"></label><label>Colheita prevista em <input id="islandReady" type="datetime-local"></label></div>
+<label><input id="islandWatered" type="checkbox"> Usei foco para regar</label>
+<label>Cenouras colhidas <input id="islandYield" type="number" min="0" max="1000000" step="1"></label>
+<label>Sementes recuperadas <input id="islandSeeds" type="number" min="0" max="1000000" step="1"></label>
+<label>Custo total em prata <input id="islandCost" type="number" min="0" max="1000000000" step="0.01"></label>
+<label>Receita líquida recebida <input id="islandRevenue" type="number" min="0" max="1000000000" step="0.01"></label></div><p class="hint">Informe a receita após vender, já descontando taxas. Datas no fuso deste computador. No registro rápido, o horário de registro é usado como início do acompanhamento.</p></details>
+<p id="islandFormMessage" role="status"></p><button class="primary" type="submit" id="islandSave">Iniciar acompanhamento</button></form></div>
+<div id="islandRows" class="island-garden"></div>
+<details class="panel island-history"><summary>Colheitas anteriores <span id="islandHistoryCount">0</span></summary><div id="islandHistory"></div></details>
+<div class="panel island-settings"><h2>Avisos da colheita</h2><p id="islandSoundStatus" role="status">Aviso visual ativo. Ative o som para ouvir quando estiver pronto.</p><button type="button" id="islandSound">♪ Ativar e testar som da colheita</button><p class="hint">Mantenha a página aberta e o computador acordado. Reative o som após recarregar.</p><details><summary>Backup e armazenamento</summary><p class="hint">Salvo neste navegador e endereço, separado por servidor. Exporte uma cópia para guardar seus registros.</p><button type="button" id="islandExport">Exportar registros da ilha</button></details></div>
+</section>
+<section id="view-builds" class="tab-view" hidden aria-labelledby="buildsHeading">
+<div id="arsenalRoot" class="arsenal-v2"><h1 id="buildsHeading">Arsenal</h1><p role="status">Carregando builds…</p></div>
+</section>
+<section id="view-resources" class="tab-view" hidden aria-labelledby="resourcesHeading"><section class="panel content-panel">
+<h1 id="resourcesHeading">Flips de coleta</h1><p>Compre recursos brutos e revenda nos mercados das cidades. Compare a mesma variante, sem refino.</p>
+<form id="resourceForm" class="controls">
+<label>Servidor <select id="resourceServer"><option>Americas</option><option>Europe</option></select></label>
+<label>Recurso <select id="resourceFamily"><option value="all">Todos</option><option value="WOOD">Madeira</option><option value="ORE">Minério</option><option value="FIBER">Fibra</option><option value="HIDE">Peles</option><option value="ROCK">Pedra</option></select></label>
+<label>Tier <select id="resourceTier"><option >2</option><option >3</option><option selected>4</option><option >5</option><option >6</option><option >7</option><option >8</option></select></label>
+<label>Encantamento <select id="resourceEnchant"><option value="0">.0</option><option value="1">.1</option><option value="2">.2</option><option value="3">.3</option><option value="4">.4</option></select></label>
+<label>Cidade de compra <select id="resourceOrigin"><option value="all">Todas</option><option value="Bridgewatch">Bridgewatch</option><option value="Lymhurst">Lymhurst</option><option value="Martlock">Martlock</option><option value="Thetford">Thetford</option><option value="FortSterling">Fort Sterling</option><option value="Caerleon">Caerleon</option></select></label>
+<label>Cidade de venda <select id="resourceDestination"><option value="all">Todas</option><option value="Bridgewatch">Bridgewatch</option><option value="Lymhurst">Lymhurst</option><option value="Martlock">Martlock</option><option value="Thetford">Thetford</option><option value="FortSterling">Fort Sterling</option><option value="Caerleon">Caerleon</option></select></label>
+<label>Como comprar <select id="resourceBuy"><option value="direct">Compra direta</option><option value="order">Ordem de compra (esperar)</option></select></label>
+<label>Como vender <select id="resourceSell"><option value="order">Anúncio (esperar)</option><option value="instant">Venda imediata</option></select></label>
+<label><input id="resourcePremium" type="checkbox"> Premium</label>
+<label>Orçamento com criação <input id="resourceBudget" type="number" min="1" max="1000000000" value="1000000" required></label>
+<label>Quantidade desejada por lote <input id="resourceQty" type="number" min="1" max="1000000" step="1" value="100" required></label>
+<label>Idade máxima (min) <input id="resourceAge" type="number" min="1" max="1440" value="60" required></label>
+<button id="resourceScan" type="submit">Pesquisar recursos</button></form>
+<p class="hint">Imposto: 8% sem Premium ou 4% com Premium. Criação: 2,5% em cada ordem de compra ou venda. Confira as taxas no jogo. Alterações, transporte e refino não entram na conta.</p>
+<p class="warning">Cada linha simula um lote independente: o orçamento não vale para a soma da tabela. Quantidades não confirmam estoque nem procura disponível. Confira peso, capacidade e rota antes de transportar. Caerleon exige avaliar o risco de perda.</p>
+<p class="hint">Ordens usam preços concorrentes observados, sem garantia de execução. Na mesma cidade, comparamos apenas ordem de compra + anúncio. O histórico é de vendas por anúncios na cidade de destino; não mede a velocidade das suas ordens de compra.</p>
+<p id="resourceStatus" role="status">Selecione os filtros e pesquise.</p>
+<label>Ordenar por <select id="resourceSort"><option value="profit">Lucro do lote</option><option value="roi">ROI</option><option value="fresh">Cotações mais recentes</option></select></label>
+<div class="table-scroll"><table><thead><tr><th>Recurso exato</th><th>Compra → venda</th><th>Compra/un.</th><th>Venda/un.</th><th>Lote simulado</th><th>Lucro / ROI</th><th>Vendas na cidade de destino</th><th>Ação</th></tr></thead><tbody id="resourceRows"><tr><td colspan="8">Nenhuma pesquisa realizada.</td></tr></tbody></table></div>
+<p class="hint">Fonte: <a href="https://www.albion-online-data.com/api/" target="_blank" rel="noopener">Albion Data Project</a>. Observações de jogadores podem estar incompletas. Histórico: últimos sete dias completos UTC; dias ausentes são desconhecidos, não zero vendas.</p>
+</section></section>
+<section id="view-scanner" class="tab-view" aria-labelledby="scannerHeading"><h1 id="scannerHeading" class="sr-only">Scanner de oportunidades</h1>
+<div class="panel filter-panel"><div class="filter-line"><span class="eyebrow city-label">Cidade de compra</span><div id="cityChips" class="city-chips"></div></div>
+<div class="filter-line filter-tiers"><span class="eyebrow">Tier</span><div id="tierChips" class="chips"></div><span class="eyebrow enchant-label">Encant.</span><div id="enchantChips" class="chips"></div><div id="searchSlot"></div></div>
+<div class="controls"><label>Seleção de itens <select id="itemProfile"><option value="bm_expanded" selected>Busca ampliada: T4–T8 .0–.2</option><option value="bm_advanced">Equipamentos avançados: T6–T8 .0–.4</option><option value="bm_core">Básicos: T4–T6 .0/.1</option><option value="all">Catálogo completo</option></select></label></div><details><summary>Sobre a seleção de itens</summary><p id="researchInfo" class="hint">Carregando seleção e fontes…</p><p class="hint">A seleção reduz o universo de busca; não garante lucro. Liquidez, qualidade, preço e quantidade continuam sendo conferidos. Alertas mantêm seus limites de 20 mil/un. e 40%: itens baratos podem ter bom giro e não atingir esse lucro por unidade.</p></details><button type="button" data-tab="trades">Planejar venda pendente</button><div id="quickFilters" class="quick-filters"></div><div class="controls"><label><input id="prioritizeLiquidity" type="checkbox" checked> Somente flips com liquidez comprovada</label></div><p id="liquiditySummary" class="hint" role="status">Aguardando histórico para avaliar a demanda.</p><details id="advancedFilters"><summary>Mais filtros e acompanhamento</summary><form id="marketForm" class="controls">
+    <label hidden>Servidor <select id="server"><option>Americas</option><option>Europe</option></select></label>
+    <label hidden>Cidade de compra <select id="cargoCity">
+      <option value="all" selected>Todas as cidades</option>
+      <option>Bridgewatch</option><option>Lymhurst</option><option>Martlock</option>
+      <option>Thetford</option><option value="FortSterling">Fort Sterling</option>
+    </select></label>
+    <label><input type="checkbox" id="premium"> Premium (taxa de 4%; sem Premium: 8%)</label>
+    <label>Idade máxima dos preços (min) <input type="number" id="maxAge" value="1440" min="1" required></label>
+    <label>Família <select id="family"><option value="">Todas</option></select></label>
+    <label hidden>Tier <select id="tier"><option value="" selected>Todos</option><option value="4">T4</option><option value="5">T5</option><option value="6">T6</option><option value="7">T7</option><option value="8">T8</option></select></label>
+    <label hidden>Encantamento <select id="enchantment"><option value="" selected>Todos</option><option value="0">.0</option><option value="1">.1</option><option value="2">.2</option><option value="3">.3</option><option value="4">.4</option></select></label>
+    <label><input id="autoRefresh" type="checkbox" checked> Atualizar automaticamente a cada minuto</label>
+    <label><input id="livePrices" type="checkbox" checked> Receber observações de preços</label>
+    <button id="refresh" type="submit">Atualizar oportunidades</button>
+</form>
+  <div class="controls">
+    <label>Buscar item <input id="search" type="search" placeholder="Nome, tier ou código"></label>
+    <label><input id="showReferences" type="checkbox" checked> Incluir preços antigos (referência)</label>
+    <label><input id="profitableOnly" type="checkbox" checked> Somente lucrativos</label>
+    <button id="loadLiquidity" type="button">Consultar histórico do BM</button>
+    <label><input id="lockOrder" type="checkbox"> Manter ordem das linhas (preços continuam atualizando)</label>
+  </div>
+  <p class="hint">Liquidez comprovada: vendas em pelo menos 5 dos últimos 7 dias completos (UTC), último dado de até 2 dias atrás, volume informado na semana dividido por 7 de pelo menos 10 un./dia e mediana dos dias informados de pelo menos 10 unidades. O filtro vale para lista e sugestão. Alertas sempre exigem liquidez comprovada. Histórico ausente não comprova falta de vendas, mas exclui o item das recomendações.</p>
+  <p class="hint">A sugestão limita cada item/qualidade a 10% do menor valor entre a mediana diária e o volume informado dividido por 7, arredondado para baixo. Esse limite é uma regra conservadora, não estoque nem prazo de venda. Quantidades editadas manualmente recebem aviso quando excedem o limite. Confira estoque em Thetford e ordens no BM.</p>
+  <p class="hint">O histórico é do Black Market por item e qualidade, não da cidade de compra. A variação é o desvio dos preços médios diários em relação à sua média. Dias ausentes são desconhecidos. O preço médio histórico não é uma oferta disponível agora.</p>
+  <p id="liquidityStatus" role="status">Aguardando os itens da consulta para analisar o histórico do BM.</p>
+  <p id="freshnessSummary" class="hint"></p>
+  <div id="status" role="status" aria-live="polite"></div>
+</details></div>
+<div class="market-notice"><span class="notice-symbol">i</span><span>Lucro estimado para venda imediata no <strong>Mercado Negro</strong>. Preços e quantidades podem mudar durante o transporte.</span></div>
+<div class="scan-status">  <p id="liveStatus" role="status" aria-live="polite">Conectando ao fluxo ao vivo…</p><button id="refreshVisible" type="button">↻ Atualizar</button></div>
+<section class="hero-section" aria-labelledby="heroHeading"><div class="section-heading"><h2 id="heroHeading">Melhores da rodada</h2><span>Maiores lucros/un. · confira a idade dos preços</span></div><div id="heroCards" class="hero-grid"></div></section>
+<section class="panel opportunities-panel"><div class="panel-heading"><h2>Oportunidades</h2><span id="tableCount"></span></div><div class="sort-controls"><p class="hint">Selecione duas ou mais colunas numéricas para combinar os resultados com o mesmo peso. ↓ favorece valores maiores; ↑ favorece menores; o terceiro clique remove a coluna. O ranking usa a posição média em cada critério. Item e Cidade ordenam por nome, separadamente.</p><p id="sortSummary" class="hint" role="status"></p><button id="resetSort" type="button">Restaurar ordenação</button></div><div class="table-scroll scanner-desktop"><table id="opportunitiesTable"><thead><tr>
+<th data-key="item_name" tabindex="0">Item</th><th data-key="source_city" tabindex="0">Cidade</th><th data-key="city_price" tabindex="0">Compra</th><th data-key="bm_price" tabindex="0">Oferta BM</th><th data-key="profit" tabindex="0">Lucro/un.</th><th data-key="margin_pct" tabindex="0">ROI</th><th title="Média de unidades vendidas por dia informado nos últimos 7 dias completos, por item e qualidade">Vendas/dia BM</th><th>Tendência</th><th data-key="profit_per_kg" tabindex="0">Lucro/kg</th><th>Ações</th></tr></thead><tbody id="rows"></tbody></table></div><div id="mobileOpportunities" class="mobile-opportunities"></div><div class="table-footer"><p id="resultCount"></p><button id="showMore" type="button" hidden>Mostrar mais 100</button></div></section>
+<details id="recentPanel">
+    <summary>Oportunidades recentes <span id="recentCount">(0)</span></summary>
+    <p class="hint">Últimos dados conhecidos dos itens que saíram desta consulta ou perderam o lucro. Até 200 itens por uma hora nesta sessão; mudar os filtros inicia outro acompanhamento. A saída não confirma que o item foi vendido.</p>
+    <div class="table-scroll"><table><thead><tr><th>Item / qualidade</th><th>Última compra</th><th>Última oferta BM</th><th>Motivo / horário</th><th>Ações</th></tr></thead><tbody id="recentRows"></tbody></table></div>
+  </details>
+  <details class="panel help-panel"><summary>Sobre os preços e a coleta de dados</summary><p id="catalogStatus" class="hint"></p>
+  <p class="hint">A consulta pode reutilizar dados por até 60 segundos. A idade em cada item é a do preço observado no jogo. Atualizar a consulta não garante preço novo nem estoque. Os filtros acima também se aplicam à sugestão de carga.</p>
+  <p id="lastQuery" class="hint">Nenhuma consulta concluída nesta sessão.</p>
+
+  <p class="hint">Fluxo comunitário: usamos a observação mais recente de cada item, qualidade e mercado, recebida nos últimos 10 minutos. A idade do fluxo é desde o recebimento, não desde a coleta original. Conexão ativa não significa cotação recente do item. Não há confirmação completa de vendas, cancelamentos ou quantidade disponível.</p>
+  <p class="warning">O lucro é uma estimativa para venda imediata no <strong>Mercado Negro</strong>, não no mercado comum de Caerleon. Mesmo um preço recente pode mudar antes da chegada. Pedidos de venda têm espera e taxas adicionais.</p>
+  <details id="collectorGuide"><summary>Como atualizar preços com o coletor</summary>
+    <ol><li>Abra o <a href="https://www.albion-online-data.com/client" target="_blank" rel="noopener noreferrer">Albion Data Client oficial</a> enquanto joga. Ele envia ao projeto dados de mercado carregados no jogo.</li>
+    <li>No Black Market, consulte as ofertas de compra do item, tier, encantamento e qualidade exatos. Para atualizar a origem, consulte também o mercado dessa cidade.</li>
+    <li>Nesta página, selecione o mesmo servidor e confira as duas idades na linha do item. Atualizar a página sozinho não coleta preços novos.</li></ol>
+    <p class="hint">O painel não consegue confirmar se o coletor está instalado, nem se uma mensagem foi enviada por você. Mensagens repetidas podem ser deduplicadas por 5 minutos. Algumas contas recebem dados criptografados que o coletor não consegue ler: veja a <a href="https://www.albion-online-data.com/client-faq" target="_blank" rel="noopener noreferrer">ajuda oficial</a>. Nesses casos, confira o preço diretamente no jogo.</p>
+  </details>
+</details></section>
+<section id="view-routes" class="tab-view" hidden aria-labelledby="routeHeading"><div class="section-heading"><h1 id="routeHeading">Rotas para Caerleon</h1><span>Planejamento de transporte</span></div><div class="panel route-selector"><span class="eyebrow">Saindo de</span><div id="routeChips" class="city-chips"></div></div><div class="route-grid"><div class="panel route-pending"><h2 id="routeTitle">Destino · Caerleon</h2><span class="status-chip">Guia de rota pendente</span><p>O guia de transporte ainda não foi integrado. Consulte seu guia para o trajeto, as zonas e o tempo de viagem; esses dados continuam pendentes aqui.</p><div class="route-metrics"><div>Zonas<strong>—</strong></div><div>Tempo<strong>—</strong></div><div>Risco<strong>—</strong></div></div><div class="route-endpoint" id="routeOrigin"></div><div class="route-connector">Trajeto a confirmar no seu guia</div><div class="route-endpoint"><span class="crest caerleon">C</span>Caerleon · Black Market</div></div><div class="panel map-panel"><h2>Continente real</h2><div id="largeMap"></div><p class="hint">Mapa esquemático de origem e destino. Não representa caminhos, distâncias ou zonas do jogo.</p></div></div><div class="panel route-kit"><h2>Seu transporte</h2><p>Reserve o custo da montaria e do equipamento fora do orçamento das mercadorias. Informe o peso livre mostrado no jogo para conferir sua carga.</p><button type="button" data-tab="cargo">Preparar carga →</button></div></section>
+<section id="view-cargo" class="tab-view" hidden aria-labelledby="cargoHeading"><div class="section-heading"><h1 id="cargoHeading">Carga para Caerleon</h1><span>Planeje suas quantidades</span></div><div class="panel content-panel">
+  <p id="cargoContext"></p>
+  <form id="cargoForm" class="controls">
+    <label>Orçamento para mercadorias <input type="number" id="cargoBudget" value="100000" min="1" step="1" required></label>
+    <label>Peso livre para carga (kg) <input type="number" id="cargoWeight" placeholder="Informe no jogo" min="0.001" step="0.001" required></label>
+    <label>Máximo por item na sugestão <input type="number" id="cargoMaxQty" value="1" min="1" step="1" required></label>
+    <label>Patrimônio em prata (opcional) <input type="number" id="cargoBankroll" min="1" step="1"></label>
+    <button id="cargoSubmit" type="submit">Sugerir carga</button>
+  </form>
+  <p class="hint">A carga usa preços salvos. Confira a oferta no jogo antes de comprar; o lucro não garante demanda para todas as unidades.</p>
+<details class="cargo-help"><summary>Como preencher a carga e interpretar as estimativas</summary>  <p class="hint">O orçamento não inclui montaria ou equipamento. O máximo por item limita a sugestão, não representa estoque. A sugestão automática exige uma cidade específica, carga vazia, preços de até 2 minutos e lucro positivo após a queda simulada. Em Todas as cidades, adicione os itens manualmente; cada um mantém sua cidade de compra.</p>
+  <p class="hint">Em Quantidade, informe quantas unidades pretende comprar ou já comprou. O lucro total do item e da carga é recalculado na hora, descontando a taxa de venda. Preencha o preço real por unidade para calcular com seu custo de compra.</p>
+  <p class="hint">A estimativa considera todas as unidades vendidas pela oferta BM indicada. Esse preço pode mudar e não garante demanda para toda a quantidade.</p>
+</details>
+  <div id="cargoStatus" role="status" aria-live="polite"></div>
+  <div id="storageStatus" role="status"></div>
+  <div class="table-scroll"><table id="cargoTable" hidden>
+    <thead><tr><th>Item / qualidade</th><th>Quantidade</th><th>Custo/un.</th><th>Oferta BM / mínimo</th><th>Lucro total</th><th>Ações</th></tr></thead>
+    <tbody id="cargoRows"></tbody>
+  </table></div>
+  <div id="cargoTotals" aria-live="polite"></div>
+  <div id="scenarios"></div>
+  <p class="hint">As quedas de preço são simulações, não previsões. O preço mínimo cobre a compra e a taxa selecionada; não inclui custos de transporte ou perda da carga.</p>
+  <p class="hint">Rascunhos ficam neste navegador, separados por servidor e cidade. Conferir a compra não reserva o preço ou a quantidade no Black Market.</p>
+  </div></section>
+<section id="view-favs" class="tab-view" hidden aria-labelledby="favHeading"><div class="section-heading"><h1 id="favHeading">Favoritos</h1><span>Seu acompanhamento</span></div><div class="panel content-panel">
+  <p class="hint">Salvos neste navegador por servidor, cidade e qualidade. Permanecem aqui quando saem da tabela. Novas cotações dependem dos filtros consultados.</p>
+  <p id="favoriteStatus" role="status"></p>
+  <div class="table-scroll"><table><thead><tr><th>Item / qualidade</th><th>Última compra / idade</th><th>Última oferta BM / idade</th><th>Situação</th><th>Ações</th></tr></thead><tbody id="favoriteRows"></tbody></table></div>
+</div></section>
+<section id="view-alerts" class="tab-view" hidden aria-labelledby="alertsHeading"><div class="section-heading"><h1 id="alertsHeading">Alertas</h1><span>Oportunidades dentro dos seus critérios</span></div><div class="panel content-panel"><h2>Oportunidades excepcionais</h2><p class="hint">Configuração inicial: lucro de 20.000 prata por unidade e ROI de 40%. Ajuste os limites abaixo; suas preferências ficam salvas neste navegador.</p>
+  <div class="controls">
+    <label><input id="alertsEnabled" type="checkbox" checked> Identificar boas oportunidades</label>
+    <label>Lucro mínimo por unidade <input id="alertProfit" type="range" min="1000" max="100000" step="500" value="20000" required></label>
+    <label>ROI mínimo (%) <input id="alertRoi" type="range" min="0" max="120" step="5" value="40" required></label>
+    <label>Preço com até (min) <input id="alertAge" type="range" min="1" max="2" step="1" value="2" required></label>
+    <label>Simular queda no BM (%) <input id="stressDrop" type="number" min="0" max="90" step="1" value="10" required></label>
+    <button id="desktopAlerts" type="button">Ativar notificações do navegador</button><button id="settingsSound" type="button" aria-pressed="false">♪ Ativar som</button><button id="testSound" type="button">Ativar e testar som</button><label>Volume do alerta <output id="soundVolumeValue">50%</output><input id="soundVolume" aria-label="Volume do alerta" type="range" min="0" max="100" step="5" value="50"></label>
+  </div>
+  <p class="hint">Alertas exigem lucro e ROI mínimos, ambas as cotações com até 2 minutos (ou o limite menor escolhido) e lucro positivo após a queda simulada. Padrões: 20.000 prata por unidade, ROI de 40% e queda de 10%. Liquidez comprovada é sempre obrigatória para os alertas, mesmo quando o filtro da lista está desativado. A simulação não prevê o preço na chegada. Monitoramento enquanto esta página estiver aberta e recebendo atualizações, dentro do servidor, cidade e filtros consultados. A busca por nome não limita os alertas. Não confirma estoque nem venda.</p>
+  <p class="hint">Um novo aviso do mesmo item exige 15 minutos, lucro pelo menos 20% maior e uma observação mais recente. Os avisos abaixo são registros da sessão; confira a cotação atual antes de comprar.</p>
+  <p id="soundSummary" role="status">Som desativado</p><p id="soundStatus" role="status"></p>
+  <p class="hint">Clique em Ativar e testar som para liberar o áudio nesta página. Ao recarregar, ative novamente. Novos avisos tocam três notas, no máximo uma sequência a cada 10 segundos; todos ficam no histórico. O teste não cria uma oportunidade. A página precisa continuar aberta, recebendo dados, com o computador acordado e o áudio liberado. Abas suspensas ou fechadas não garantem avisos.</p>
+  <p id="notificationStatus" role="status"></p>
+  <div id="alertStatus" role="status" aria-live="polite">Aguardando oportunidade que atenda aos critérios.</div>
+  <h2>Histórico da sessão</h2><div id="alertHistory"></div>
+  </div></section>
+<section id="view-trades" class="tab-view" hidden aria-labelledby="tradesHeading"><p id="tradeSyncStatus" class="hint" role="status">Sincronizando registros com o servidor local…</p><div class="section-heading"><h1 id="tradesHeading">Meus flips</h1><span>Seu histórico de resultados</span></div>
+<div class="panel trade-toolbar"><label>Servidor <select id="tradeServer"><option>Americas</option><option>Europe</option></select></label><label>Vendas no período <select id="tradePeriod"><option value="">Todo o histórico</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option><option value="90">Últimos 90 dias</option></select></label><button type="button" id="tradeAdd" class="primary">+ Registrar flip</button></div>
+<section class="panel content-panel" id="orderPlanner"><h2>Planejar venda pendente no BM</h2>
+<p class="hint">Planejamento não é compra nem lucro realizado. Confira a mesma variante e qualidade no histórico e nos anúncios concorrentes do Mercado Negro. A média é uma referência, não um preço recomendado automaticamente.</p>
+<form id="orderForm" class="controls">
+<label>Item / tier / encantamento / qualidade <input id="orderItem" maxlength="200" required></label>
+<label>Cidade da compra <select id="orderCity"><option>Thetford</option><option>Lymhurst</option><option>Bridgewatch</option><option>Martlock</option><option>FortSterling</option><option>Caerleon</option></select></label>
+<label>Quantidade planejada <input id="orderQuantity" type="number" min="1" step="1" value="1" required></label>
+<label>Compra por unidade <input id="orderBuy" type="number" min="0.01" step="0.01" required></label>
+<label>Preço-alvo por unidade <input id="orderTarget" type="number" min="0.01" step="0.01" required></label>
+<label>Imposto de venda (%) <input id="orderTax" type="number" min="0" max="99" step="0.01" value="8" required></label>
+<label>Criação da ordem (%) <input id="orderSetup" type="number" min="0" max="99" step="0.01" value="2.5" required></label>
+<label>Outros custos e alterações previstos (lote) <input id="orderExtra" type="number" min="0" step="0.01" value="0" required></label>
+<label>Preço médio observado no BM (opcional) <input id="orderAverage" type="number" min="0.01" step="0.01"></label>
+<label>Unidades vendidas no período (opcional) <input id="orderVolume" type="number" min="1" step="1"></label>
+<label>Período do histórico em dias (opcional) <input id="orderDays" type="number" min="1" step="1"></label>
+<label>Conferido no BM em (opcional) <input id="orderObservedAt" type="datetime-local"></label>
+<label>Concorrência e observações <textarea id="orderNotes" maxlength="2000" placeholder="Preços concorrentes, quantidade anunciada e detalhes do histórico"></textarea></label>
+<button type="submit">Salvar plano</button><button id="orderNew" type="button">Novo plano</button><button id="orderExport" type="button">Exportar planos</button>
+</form><p class="hint">Taxas editáveis: confira os valores mostrados pelo jogo (imposto usual: 8% sem Premium ou 4% com Premium). A taxa de criação é paga antes da venda. ROI abaixo considera compra e custos previstos. Planos ficam salvos neste navegador, separados por servidor.</p>
+<div id="orderPreview" role="status" aria-live="polite"></div><p id="orderStatus" role="status"></p><div id="orderPlans"></div></section>
+<p id="tradeEstimateNotice" class="warning" role="status"></p>
+<div id="tradeMetrics" class="summary-grid trade-metrics" aria-live="polite"></div>
+<div class="trade-charts"><section class="panel content-panel"><h2>Evolução do resultado</h2><p class="hint">Resultado acumulado de vendas e perdas no período, começando em zero. Não é o saldo da carteira no jogo.</p><div id="tradeEquity"></div></section><section class="panel content-panel"><h2>Resultado por dia</h2><p class="hint">Lucros em verde e prejuízos em vermelho. Dias de venda ou perda em UTC.</p><div id="tradeDaily"></div></section></div>
+<section class="panel content-panel trade-ranking"><div class="section-heading"><h2>Melhores flips</h2><span>Por lucro total do item</span></div><p id="tradeInsight" class="hint"></p><div class="table-scroll"><table><thead><tr><th>Item</th><th>Lucro total</th><th>ROI</th><th>Lucro/un.</th></tr></thead><tbody id="tradeBest"></tbody></table></div><p class="hint">Mesmo nome, tier, encantamento e qualidade são agrupados. Pendentes e arquivados não entram nos resultados realizados. Desempenho passado não garante o próximo flip.</p><details><summary>Ver os números dos gráficos</summary><div class="table-scroll"><table><thead><tr><th>Dia (UTC)</th><th>Lotes vendidos</th><th>Lucro do dia</th><th>Acumulado</th></tr></thead><tbody id="tradeChartData"></tbody></table></div></details></section>
+<section class="panel content-panel saved-kit" aria-labelledby="savedKitHeading"><div class="section-heading"><h2 id="savedKitHeading">Conjunto de transporte salvo</h2><button id="copySavedKit" type="button" class="primary">Copiar lista completa</button></div><p class="hint">Use os botões para copiar o nome exato e colar na busca do mercado. Tier e encantamento aparecem ao lado para conferência.</p><div class="saved-kit-list">
+  <div><span><small>Cavalo</small><strong>Cavalo de Montaria</strong><em>T3</em></span><button type="button" data-copy-kit="Cavalo de Montaria">Copiar nome</button></div>
+  <div><span><small>Arma</small><strong>Cajado Bilaminado do Adepto</strong><em>T4.0</em></span><button type="button" data-copy-kit="Cajado Bilaminado do Adepto">Copiar nome</button></div>
+  <div><span><small>Peito</small><strong>Casaco de Assassino do Adepto</strong><em>T4.0</em></span><button type="button" data-copy-kit="Casaco de Assassino do Adepto">Copiar nome</button></div>
+  <div><span><small>Cabeça</small><strong>Capote de Erudito do Adepto</strong><em>T4.0</em></span><button type="button" data-copy-kit="Capote de Erudito do Adepto">Copiar nome</button></div>
+  <div><span><small>Botas</small><strong>Botas de Soldado do Adepto</strong><em>T4.0</em></span><button type="button" data-copy-kit="Botas de Soldado do Adepto">Copiar nome</button></div>
+</div><p id="kitCopyStatus" role="status" aria-live="polite"></p></section>
+<div class="panel content-panel"><details id="tradeEntry"><summary>Registrar ou editar um lote</summary>
+  <p class="hint">Uma linha por lote com o mesmo estado. Para vendas parciais, divida os lotes e distribua compra e taxas sem duplicá-las. Salvo no servidor local e neste navegador; exporte uma cópia. Informe datas no horário local. O lucro inclui apenas mercadorias e taxas informadas, não o conjunto de transporte.</p>
+  <form id="tradeForm" class="controls">
+    <label>Item / tier / encantamento / qualidade <input id="tradeItem" type="text" maxlength="200" required></label>
+    <label>Cidade da compra <select id="tradeCity"><option>Thetford</option><option>Lymhurst</option><option>Bridgewatch</option><option>Martlock</option><option value="FortSterling">Fort Sterling</option><option>Caerleon</option></select></label>
+    <label>Quantidade do lote <input id="tradeQty" type="number" min="1" step="1" value="1" required></label>
+    <label>Custo total da compra <input id="tradePurchase" type="number" min="0.01" step="0.01" required></label>
+    <label><span><input id="tradeEstimated" type="checkbox"> Custos aproximados</span></label>
+    <label>Compra em (opcional) <input id="tradeBought" type="datetime-local"></label>
+    <label>Forma de venda <select id="tradeMode"><option value="order">Pedido de venda</option><option value="instant">Venda imediata</option></select></label>
+    <label>Preço-alvo/un. da venda pendente (opcional) <input id="tradeTarget" type="number" min="0.01" step="0.01"></label><label>Imposto previsto (%) <input id="tradeTax" type="number" min="0" max="99" step="0.01" value="8" required></label><label>Taxas futuras previstas, ainda não pagas (lote) <input id="tradeFutureFees" type="number" min="0" step="0.01" value="0" required></label><label>Resultado <select id="tradeOutcome"><option value="pending">Pendente</option><option value="sold">Vendido</option><option value="lost">Perdido no transporte</option></select></label>
+    <label>Anúncio criado em (opcional) <input id="tradeListed" type="datetime-local"></label>
+    <label>Venda ou perda em <input id="tradeSold" type="datetime-local"></label>
+    <label>Total recebido após imposto de venda <input id="tradeReceived" type="number" min="0" step="0.01"></label>
+    <label>Taxas extras totais já pagas <input id="tradeFees" type="number" min="0" step="0.01" value="0" required></label>
+    <button id="tradeSave" type="submit">Salvar operação</button><button id="tradeNew" type="button">Nova operação</button>
+  </form>
+  <p class="hint">Use em “Total recebido” o valor do comprovante, já descontado o imposto. Em “Taxas extras”, some criação e alteração de ordens, incluindo anúncios anteriores. Não repita o imposto já descontado. Se não souber o custo exato, marque Custos aproximados; o resultado será identificado como aproximado. Sem data de compra, o tempo desde a compra não é calculado.</p>
+  </details><p id="tradeStatus" role="status"></p><h2>Registro dos lotes</h2><p id="tradeSummary" aria-live="polite"></p><p class="hint">A lista abaixo mostra todos os lotes deste servidor. O filtro de período atua nos gráficos e análises acima.</p>
+  <div class="controls"><label><input id="tradeArchived" type="checkbox"> Mostrar arquivadas</label><button id="tradeExport" type="button">Exportar registros</button></div>
+  <div class="table-scroll"><table><thead><tr><th>Operação</th><th>Compra / taxas</th><th>Recebido</th><th>Lucro realizado</th><th>Tempo real</th><th>Ações</th></tr></thead><tbody id="tradeRows"></tbody></table></div>
+</div></section>
+</main><aside class="right-rail" aria-label="Alertas e resumo da carga"><section class="panel rail-alerts"><div class="panel-heading"><h2><span class="alert-dot"></span>Alertas <small class="rail-history-label">Histórico da sessão</small></h2><span id="railCriteria"></span><button type="button" data-tab="alerts" class="icon-button" aria-label="Configurar alertas">⚙</button></div><div id="railAlerts"></div></section><section id="cargoDropZone" class="panel rail-cargo" aria-label="Solte aqui itens para a carga"><div class="section-heading"><h2>Sua carga</h2><button data-tab="cargo" type="button" class="text-button">Detalhes ↗</button></div><div id="railMeters"></div><div id="railCargoItems" class="cargo-drop-content"></div><div id="railTotals" class="rail-kpis"></div><div class="rail-actions"><button id="railSuggest" type="button" class="primary">Sugerir carga</button><button id="clearCargo" type="button" aria-label="Esvaziar carga">×</button></div><p id="railPlanHint" class="hint"></p><div id="miniMap"></div><p class="map-caption">Origem → Black Market · mapa esquemático</p></section></aside></div>
+<div id="mobileCargoBar" class="mobile-cargo-bar"><div id="mobileCargoSummary"></div><button id="openCargoSheet" type="button">Ver carga ↑</button></div>
+<nav class="mobile-tabs" aria-label="Navegação móvel"><button data-tab="scanner"><span>⌕</span>Scanner</button><button data-tab="cargo"><span>▣</span>Carga</button><button data-tab="favs"><span>☆</span>Favoritos</button><button id="mobileMore" aria-expanded="false"><span>☰</span>Mais</button></nav><nav id="moreMenu" hidden aria-label="Mais páginas"><button data-tab="routes">Rotas</button><button data-tab="alerts">Alertas <span data-count="alerts">0</span></button><button data-tab="resources">Coleta</button><button data-tab="builds">Armas e builds</button><button data-tab="trades">Meus flips</button><button data-tab="island">Minha ilha</button></nav>
+<dialog id="detailDialog" class="detail-dialog" aria-labelledby="detailTitle"><div id="detailHeader"></div><div id="detailBody"></div><div id="detailFooter"></div></dialog>
+<dialog id="cargoSheet" class="cargo-sheet" aria-labelledby="sheetTitle"><div class="panel-heading"><h2 id="sheetTitle">Sua carga</h2><button type="button" data-close="cargoSheet" aria-label="Fechar carga">×</button></div><div id="sheetContent"></div><button type="button" id="sheetEdit" class="primary">Editar custos e capacidade</button></dialog>
+<div id="actionNotice" class="action-notice" role="status" aria-live="polite" hidden></div>
+<script src="/risk-model.js?v=resources-1"></script>
+  <script src="/cargo-model.js"></script>
+  <script src="/opportunity-model.js?v=resources-1"></script>
+  <script src="/alert-sound.js?v=resources-1"></script>
+  <script src="/alert-model.js?v=resources-1"></script>
+  <script src="/order-model.js?v=resources-1"></script><script src="/order-ui.js?v=resources-1"></script>
+  <script src="/trade-model.js?v=sold-estimates-1"></script>
+  <script src="/liquidity-ui.js?v=resources-1"></script>
+  <script src="/trade-dashboard.js?v=resources-1"></script>
+  <script src="/trade-ui.js?v=sold-estimates-1"></script>
+<script src="/design-ui.js?v=albion-profit-1"></script>
+  <script src="/table-sort.js?v=resources-1"></script>
+  <script src="/app.js?v=flip-catalog-2"></script>
+<script src="/resource-ui.js?v=resources-3"></script>
+<script src="/arsenal-data.js?v=1"></script>
+<script src="/arsenal-view.js?v=1"></script>
+<script src="/build-ui.js?v=arsenal-handoff-1"></script>
+<script src="/island-model.js?v=1"></script><script src="/island-ui.js?v=2"></script></body></html>

@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+uvicorn.log
+static/imported-flips.json
+
+data/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.codex/
+.agents/
+.aws/
+
+# Personal records, temporary research and design captures
+.test-*/
+docs/meus-flips.md
+design/
+research_candidates.json
+research_lymhurst.json
+research_million.json
+research_next_flip.json
+research_shortlist.json
+research_thetford.json
+research_validation.json
+thetford_scan.json
+
+# Build and editor artifacts
+node_modules/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bm_expanded",
+    "name": "Busca ampliada: T4–T8 .0–.2",
+    "researched_at": "2026-09-27",
+    "tiers": [4, 5, 6, 7, 8],
+    "enchantments": [0, 1, 2],
+    "description": "Todos os modelos de armas, armaduras, cabeças, calçados, secundários, capas e bolsas do catálogo, incluindo artefatos, de T4 a T8 com encantamento .0 a .2. Ampliação do universo de candidatos, não uma lista de lucro garantido. Oportunidades exigem preços observados nas duas pontas; mantenha a verificação de liquidez por item e qualidade.",
+    "sources": [
+      {"title": "Albion Online — Black Market tem demanda e preços variáveis", "url": "https://albiononline.com/news/video-black-market-feature"},
+      {"title": "Albion Online — equipamentos, artefatos e mercados", "url": "https://albiononline.com/news/guide-crafting"}
+    ]
+  },
+  {
+    "id": "bm_advanced",
+    "name": "Equipamentos avançados: T6–T8 .0–.4",
+    "researched_at": "2026-09-27",
+    "tiers": [6, 7, 8],
+    "enchantments": [0, 1, 2, 3, 4],
+    "description": "Todos os modelos T6, T7 e T8, incluindo artefatos e encantamentos até .4, para procurar operações de maior valor. Tier alto não garante preço alto, margem ou giro: confira o custo real por unidade, histórico, qualidade e tamanho do lote. Itens sem cotação no BM não são oportunidades confirmadas. A consulta ampla pode levar mais tempo.",
+    "sources": [
+      {"title": "Albion Online — Black Market tem demanda e preços variáveis", "url": "https://albiononline.com/news/video-black-market-feature"},
+      {"title": "Albion Online — equipamentos, artefatos e mercados", "url": "https://albiononline.com/news/guide-crafting"}
+    ]
+  }
+]
